@@ -20,17 +20,6 @@ export default{
 * {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
- padding: 0;
- margin: 0;
-  box-sizing: border-box;
 }
-.app{
-  min-height: 100vh;
-  position: relative;
-    background-color: #aaa;
-}
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
+
 </style>

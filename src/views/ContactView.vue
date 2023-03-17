@@ -4,11 +4,8 @@
       <label>Email:</label>
       <input type="email" required v-model="email">
 
-      <label>First Name:</label>
-      <input type="text" required v-model="firstname">
-
-      <label>Last Name:</label>
-      <input type="text" required v-model="lastname">
+      <label>Username:</label>
+      <input type="text" required v-model="username">
 
       <label>Message</label>
       <textarea required v-model="message" placeholder="Enter Message Here"></textarea>
@@ -23,8 +20,7 @@
     data(){
       return{
         email:'',
-        firstname:'',
-        lastname:'',
+        username:'',
         message: '',
       }
     },
