@@ -11,29 +11,9 @@
       <p class="card-text">In stock: {{ stock }}</p>
 
 
-      <a href="#" class="btn">Add to cart</a>
     </div>
   </div>
-  <div>
-  <RouterLink class="link" to="/login"><button>Sign Out</button></RouterLink>
 </div>
-  </div>
-  <div class="container">
-  <div class="card">
-    <img src="https://i.dummyjson.com/data/products/1/thumbnail.jpg" class="card-img-top" alt="{{ title }}">
-    <div class="card-body">
-      <h4 class="card-text"> {{ title }}</h4>
-      <p class="card-text"> {{ description }}</p>
-      <p class="card-text"> Price: {{ price }}</p>
-      <p class="card-text"> Discount: {{ discountPercentage }}</p>
-      <p class="card-text"> Rating: {{ rating }} </p>
-      <p class="card-text">In stock: {{ stock }}</p>
-
-
-      <a href="/cart" class="btn">Add to cart</a>
-    </div>
-  </div>
-  </div>
 </template>
 <script>
 import axios from "axios";
@@ -84,5 +64,6 @@ export default {
   margin-top: 80px;
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 </style>

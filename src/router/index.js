@@ -3,10 +3,10 @@ import HomeView from "../views/HomeView.vue";
 import ContactView from "../views/ContactView";
 import Dashboard from "../views/Dashboard";
 import LoginView from "../views/LoginView";
-import Products from "../views/Products";
+import Products from "../views/Products/Products";
 import SignupView from "../views/SignupView";
-import Product1 from "../views/Product1";
-
+import Product1 from "../views/Products/Product1";
+import PageNotFound from "../views/PageNotFound"
 const routes = [
 
   {
@@ -55,6 +55,12 @@ const routes = [
 
   },
   {
+    path: "/product/:id",
+    name: "Product1",
+    component: Product1,
+
+  },
+  {
     path: "/signup",
     name: "signup",
     component: SignupView,
@@ -62,12 +68,15 @@ const routes = [
       requiresAuth: false,
     },
   },
+
   {
-    path: "/products1",
-    name: "products1",
-    component: Product1,
+    path: "/:pathMatch(.*)*",
+    name: "pageNotFOund",
+    component: PageNotFound,
    
   },
+
+  
 ];
 
 const router = createRouter({
