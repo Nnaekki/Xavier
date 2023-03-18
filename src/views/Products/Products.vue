@@ -20,7 +20,6 @@
 import axios from "axios";
   const API = 'https://dummyjson.com/products'
 export default {
- 
   data() {
     return {
       responsedata:{},

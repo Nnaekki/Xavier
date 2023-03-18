@@ -19,7 +19,6 @@
         </div>
         <!-- logged out users -->
         <div v-if="!user">
-<RouterLink class="link" to="/login">Login</RouterLink>
           <RouterLink class="link" to="/signup">Signup</RouterLink>
       </div>
       </template>
@@ -47,7 +46,6 @@
         <div v-if="!user" class="dropdown-nav">
           <RouterLink class="link" to="/">Home</RouterLink>
         <RouterLink class="link" to="/about">About</RouterLink>
-        <RouterLink class="link" to="/login">Login</RouterLink>
           <RouterLink class="link" to="/signup">Signup</RouterLink>
       </div>
       </template>

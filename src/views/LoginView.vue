@@ -12,7 +12,7 @@
       <button>Submit</button>
     </div>
     <div class="signup">
-      <label>Don't have an account yet? <a href="/signup">Sign up here</a></label>
+      <label>Don't have an account yet? <RouterLink to="/signup">Sign up here</RouterLink></label>
       <p><a href="#">Forgot your password?</a></p>
     </div>
   </form>

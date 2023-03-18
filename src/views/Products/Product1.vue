@@ -61,9 +61,22 @@ export default {
 </script>
 <style lang="scss" scoped>
 .container {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+  margin: 3rem auto;
+padding: 2rem;
+display: grid;
+grid-column: inherit;
+place-items: center;
+gap: 20px;
+padding: 5px;
+border-radius: 10px;
+}
+.card{
+  width: 500px;
+  padding: 1rem 2rem;
+text-align: center;
+border-radius: 6px;
+color: rgb(41, 42, 43);
+background-color: white;
+filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
 }
 </style>
