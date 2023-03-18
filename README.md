@@ -36,6 +36,8 @@ The website is pretty easy to use as the design is intuitive. Once you open the 
 
 If you log out of the app, you lose access to these pages until you log in again.
 
+Link to Netlify page: https://gregarious-raindrop-665b16.netlify.app/
+
 To log in, use the same email and password you used while registering. 
 
 ## Project setup
