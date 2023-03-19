@@ -9,8 +9,8 @@
   </div>
     <div class="text">
       <h1>Welcome to Xavier</h1>
-      <h3>Your one-stop shop for all your needs!</h3>
-      <span v-if="user">Logged in as {{ user.email }}</span>
+      <p>Your one-stop shop for all your needs!</p>
+      <p v-if="user">Logged in as {{ user.email }}</p>
     </div>
   <div class="but">
   <RouterLink class="link" to="/login">
@@ -89,6 +89,11 @@ data (){
   align-items: center;
   color: white;
   padding: 150px 0 0;
+
+  p,
+  h1{
+    text-align: center;
+  }
 }
 
 .but{

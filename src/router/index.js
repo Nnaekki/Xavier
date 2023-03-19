@@ -7,7 +7,6 @@ import Products from "../views/Products/Products";
 import SignupView from "../views/SignupView";
 import Product1 from "../views/Products/Product1";
 import PageNotFound from "../views/PageNotFound";
-import Store from "../store";
 const routes = [
 
   {
@@ -53,15 +52,6 @@ const routes = [
     path: "/products",
     name: "products",
     component: Products,
-// beforeEnter: (to, from, next) => {    
-//     if (to.name !== 'login'&& !store.getters.authIsReady) {
-//       next ('/login')
-     
-  
-//       } 
-//       next()
-  
-//        }
       
   
   },
@@ -79,7 +69,7 @@ const routes = [
 
   {
     path: "/:pathMatch(.*)*",
-    name: "pageNotFOund",
+    name: "pageNotFound",
     component: PageNotFound,
    
   },
